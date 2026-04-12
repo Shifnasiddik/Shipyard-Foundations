@@ -14,10 +14,10 @@ spec:
         app: my-scalable-web-app
     spec:
       containers:
-      - name: my-scalable-web-app
-        image: my-scalable-web-app
-        env:
-        - name: STUDENT_NAME
-          value: "Ayisha"
-        ports:
-        - containerPort: 80
+        - name: my-scalable-web-app
+          image: my-scalable-web-app
+          env:
+            - name: STUDENT_NAME
+              value: "Ayisha"
+          ports:
+            - containerPort: 80
